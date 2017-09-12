@@ -1,6 +1,3 @@
-[submodule "3ndparty/libuv"]
-	path = 3ndparty/libuv
-	url = git@github.com:madwax/3ndparty.cmake.libuv.git
 [submodule "3ndparty/zlib"]
 	path = 3ndparty/zlib
 	url = git@github.com:madwax/3ndparty.cmake.zlib.git
@@ -10,3 +7,6 @@
 [submodule "3ndparty/tinyxml2"]
 	path = 3ndparty/tinyxml2
 	url = git@github.com:madwax/3ndparty.cmake.tinyxml2.git
+[submodule "3ndparty/libuv"]
+	path = 3ndparty/libuv
+	url = git@github.com:madwax/3ndparty.cmake.libuv.git
