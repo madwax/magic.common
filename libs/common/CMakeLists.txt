@@ -14,12 +14,12 @@ set( TARGET_PRIVATE_INCLUDES
 set( TARGET_PRIVATE_LINK "" )
 set( TARGET_PRIVATE_DEFINES "" )
 
-set( TARGET_LINK "" )
+set( TARGET_LINK zlib libuv cJSON )
 set( TARGET_DEFINES "" )
 
 set( TARGET_SOURCES
-  ${TARGET_INCLUDE_DIR}/common/common.h
-  ${TARGET_SOURCE_DIR}/common.cpp
+  ${TARGET_INCLUDE_DIR}/common/common.hh
+  ${TARGET_SOURCE_DIR}/common.cc
 )
 
 if( ${CMAKE_SYSTEM_NAME} MATCHES "Windows" )
